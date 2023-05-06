@@ -6,46 +6,46 @@ import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 
-export const projectsData = [
+export const 	projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Cordinate Geometry Calculator',
 		category: 'Web Application',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
+			title: 'FrontEnd Website',
+			publishDate: 'Dec 2, 2022',
 			tags: 'UI / Frontend',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		title: 'Max Furnitures',
+		category: 'E-commerce Web App',
 		img: MobileImage2,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Proficient Now(Websleak)',
+		category: 'Full Stack Web App',
 		img: UIImage1,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
+		title: 'Opuvlence(Websleak)',
+		category: 'FrontEnd WebApp',
 		img: UIImage2,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
+		title: 'Webleak Landing Page',
+		category: 'FrontEnd WebApp',
 		img: MobileImage1,
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
+		title: 'Amvotech(Websleak)',
+		category: 'FrontEnd Web App',
 		img: WebImage1,
 	},
 ];

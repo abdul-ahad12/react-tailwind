@@ -89,7 +89,7 @@ const ProjectsGrid = () => {
 						/>
 					</div>
 
-					<ProjectsFilter setSelectProject={setSelectProject} />
+					{/* <ProjectsFilter setSelectProject={setSelectProject} /> */}
 				</div>
 			</div>
 
