@@ -12,6 +12,7 @@ const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const [showModal, setShowModal] = useState(false);
 	const [activeTheme, setTheme] = useThemeSwitcher();
+	console.log(activeTheme)
 
 	function toggleMenu() {
 		if (!showMenu) {
@@ -46,7 +47,7 @@ const AppHeader = () => {
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
-						<Link className='text-white font-semibold text-2xl uppercase'  to="/">
+						<Link className={activeTheme==="light" ?`text-white font-semibold text-2xl uppercase`:`text-black font-semibold text-2xl uppercase`}  to="/">
 							My Portfolio
 							{/* {activeTheme === 'dark' ? (
 								<img
